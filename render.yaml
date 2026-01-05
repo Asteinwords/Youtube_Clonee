@@ -52,8 +52,9 @@ services:
     autoDeploy: true
 
   # Frontend Client Service
-  - type: static
+  - type: web
     name: nullclass-client
+    runtime: static
     region: oregon
     plan: free
     branch: main
