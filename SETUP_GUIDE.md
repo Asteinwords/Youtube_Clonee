@@ -32,7 +32,7 @@ cp .env.example .env
 - `MONGODB_URI` - Your MongoDB connection string
 - `JWT_SECRET` - Any random string
 - `GOOGLE_CLIENT_ID` & `GOOGLE_CLIENT_SECRET` - From Google Cloud Console
-- `FRONTEND_URL=http://localhost:5173`
+- `FRONTEND_URL=https://nullclass-client.onrender.com`
 
 **Frontend (.env):**
 ```bash
@@ -57,7 +57,7 @@ npm run dev
 
 ### Step 4: Access the App (30 seconds)
 
-Open browser to: **http://localhost:5173**
+Open browser to: **https://nullclass-client.onrender.com**
 
 ---
 
@@ -138,7 +138,7 @@ You can test basic functionality without all API keys:
 ```env
 MONGODB_URI=mongodb://localhost:27017/youtube-clone
 JWT_SECRET=test_secret_key_12345
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=https://nullclass-client.onrender.com
 SESSION_SECRET=test_session_secret
 ```
 

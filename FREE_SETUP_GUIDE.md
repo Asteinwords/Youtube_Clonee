@@ -129,7 +129,7 @@ PAYPAL_CLIENT_ID=your_sandbox_client_id
 PAYPAL_CLIENT_SECRET=your_sandbox_secret
 
 # Frontend
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=https://nullclass-client.onrender.com
 
 # Session
 SESSION_SECRET=another_random_secret_key
@@ -149,7 +149,7 @@ cd client
 npm run dev
 ```
 
-**Open browser:** http://localhost:5173
+**Open browser:** https://nullclass-client.onrender.com
 
 ---
 

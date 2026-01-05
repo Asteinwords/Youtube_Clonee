@@ -102,7 +102,7 @@ TWILIO_PHONE_NUMBER=+1234567890
 GOOGLE_TRANSLATE_API_KEY=your_google_translate_api_key
 
 # Frontend URL
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=https://nullclass-client.onrender.com
 
 # Session Secret
 SESSION_SECRET=your_session_secret_key
@@ -139,7 +139,7 @@ npm run dev
 ```
 
 The application will be available at:
-- Frontend: http://localhost:5173
+- Frontend: https://nullclass-client.onrender.com
 - Backend: https://nullclass-api.onrender.com
 - API Health: https://nullclass-api.onrender.com/api/health
 

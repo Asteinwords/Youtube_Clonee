@@ -37,7 +37,7 @@ const httpServer = createServer(app);
 // Initialize Socket.io for VoIP
 const io = new Server(httpServer, {
     cors: {
-        origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+        origin: process.env.FRONTEND_URL || 'https://nullclass-client.onrender.com',
         credentials: true
     }
 });
@@ -49,7 +49,7 @@ connectDB();
 app.use(helmet()); // Security headers
 app.use(morgan('dev')); // Logging
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    origin: process.env.FRONTEND_URL || 'https://nullclass-client.onrender.com',
     credentials: true
 }));
 app.use(express.json({ limit: '50mb' }));
