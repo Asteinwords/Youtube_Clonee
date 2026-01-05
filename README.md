@@ -75,7 +75,7 @@ JWT_EXPIRE=7d
 # Google OAuth
 GOOGLE_CLIENT_ID=your_google_client_id.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=your_google_client_secret
-GOOGLE_CALLBACK_URL=http://localhost:5000/api/auth/google/callback
+GOOGLE_CALLBACK_URL=https://nullclass-api.onrender.com/api/auth/google/callback
 
 # Cloudinary
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
@@ -117,8 +117,8 @@ npm install
 
 Create `.env` file in `client` directory:
 ```env
-VITE_API_URL=http://localhost:5000/api
-VITE_SOCKET_URL=http://localhost:5000
+VITE_API_URL=https://nullclass-api.onrender.com/api
+VITE_SOCKET_URL=https://nullclass-api.onrender.com
 VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
 ```
 
@@ -140,8 +140,8 @@ npm run dev
 
 The application will be available at:
 - Frontend: http://localhost:5173
-- Backend: http://localhost:5000
-- API Health: http://localhost:5000/api/health
+- Backend: https://nullclass-api.onrender.com
+- API Health: https://nullclass-api.onrender.com/api/health
 
 ## 📁 Project Structure
 

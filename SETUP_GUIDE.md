@@ -69,7 +69,7 @@ Open browser to: **http://localhost:5173**
 2. Create new project or select existing
 3. Enable "Google+ API"
 4. Go to "Credentials" → "Create Credentials" → "OAuth 2.0 Client ID"
-5. Add authorized redirect URI: `http://localhost:5000/api/auth/google/callback`
+5. Add authorized redirect URI: `https://nullclass-api.onrender.com/api/auth/google/callback`
 6. Copy Client ID and Client Secret to `.env`
 
 ### 2. MongoDB (Required)

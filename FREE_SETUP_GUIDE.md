@@ -62,7 +62,7 @@ mongod
 2. Create project (FREE)
 3. Enable Google+ API (FREE)
 4. Create OAuth 2.0 credentials (FREE)
-5. Add redirect URI: `http://localhost:5000/api/auth/google/callback`
+5. Add redirect URI: `https://nullclass-api.onrender.com/api/auth/google/callback`
 6. Copy Client ID & Secret
 
 ### Step 4: Setup FREE Gmail for OTP
@@ -106,7 +106,7 @@ JWT_SECRET=my_super_secret_key_12345
 # Google OAuth (FREE)
 GOOGLE_CLIENT_ID=your_client_id.apps.googleusercontent.com
 GOOGLE_CLIENT_SECRET=your_client_secret
-GOOGLE_CALLBACK_URL=http://localhost:5000/api/auth/google/callback
+GOOGLE_CALLBACK_URL=https://nullclass-api.onrender.com/api/auth/google/callback
 
 # Email (FREE - Gmail)
 EMAIL_HOST=smtp.gmail.com
@@ -121,7 +121,7 @@ USE_EMAIL_OTP_ONLY=true
 # Local Storage (FREE - No Cloudinary needed!)
 USE_LOCAL_STORAGE=true
 LOCAL_STORAGE_PATH=./uploads
-PUBLIC_URL=http://localhost:5000
+PUBLIC_URL=https://nullclass-api.onrender.com
 
 # PayPal Sandbox (FREE - No real money)
 PAYPAL_MODE=sandbox
