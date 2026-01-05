@@ -33,7 +33,7 @@ services:
       - key: GOOGLE_CLIENT_SECRET
         sync: false
       - key: GOOGLE_CALLBACK_URL
-        sync: false
+        value: https://nullclass-api.onrender.com/api/auth/google/callback
       - key: EMAIL_USER
         sync: false
       - key: EMAIL_PASS
