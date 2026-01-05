@@ -55,7 +55,6 @@ services:
   - type: web
     name: nullclass-client
     runtime: static
-    region: oregon
     plan: free
     branch: main
     rootDir: client
