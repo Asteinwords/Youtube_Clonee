@@ -55,7 +55,6 @@ services:
   - type: web
     name: nullclass-client
     runtime: static
-    plan: free
     branch: main
     rootDir: client
     buildCommand: npm install && npm run build
